@@ -1,0 +1,2473 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=21mm,
+ top=21mm,
+ bottom=20mm
+ }
+\setlength{\arrayrulewidth}{0.3mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{document} %begin here
+\pagenumbering{roman}
+\centering
+\begin{tabular}{ |p{13cm} p{1.5cm}|}
+\hline
+\vspace{2mm}
+\centering
+{\large\textbf{Department of Computer Science and Engineering}\\}
+\vspace{2mm}
+{\large Bangladesh University of Business and Technology (BUBT)}
+\vspace{2mm}
+ & 
+ \vspace{0.5mm}
+\includegraphics[height=2cm]{assets/logo.jpeg}
+ \vspace{1mm}
+ \\
+\hline
+\end{tabular}
+
+{
+\vspace{5mm}
+\large\textbf{CSE 498: Literature Review Records}
+\vspace{5mm}
+}
+
+% \vfill
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\textbf{Student’s Id and Name} & \textbf{Name: }Mustain Murtaza Taib and \textbf{ID:} 18193103003 \\ &
+ \textbf{Name: }Md Rakibul Islam and \textbf{ID:} 19201103097 \\
+\hline
+\textbf{Capstone Project Title} & 
+Tomato Leaf Disease Classification via Compact Convolutional
+Neural Networks with Transfer Learning and Feature Selection\\
+\hline
+\textbf{Supervisor Name \& Designation} & \textbf{Name: }Mr.T.M. Amir - Ul - Haque Bhuiyan \& \textbf{Designation: }Assistant Professor,Department of CSE, BUBT\\
+\hline
+\textbf{Course Teacher’s Name \&
+Designation} & \textbf{Name: }Khan Md. Hasib \&  \textbf{Designation: }Assistant Professor, Department of CSE, BUBT \\
+\hline
+\end{tabular}
+
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 1 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Tomato Leaf Disease Classification via Compact Convolutional
+Neural Networks with Transfer Learning and Feature Selection\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+Tomatoes are valuable vegetables and a major crop in many countries.
+his study proposes a pipeline using three compact convolutional neural networks (CNNs) and transfer learning to extract condensed features. The pipeline achieves high accuracy (99.92\% and 99.90\%).
+Six classifiers are utilized in the identification process,The experimental results demonstrate the competitive performance of the proposed pipeline compared to previous studies on tomato leaf disease classification.\\
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+\begin{itemize}
+    \item  Three compact CNNs (ResNet-18, ShuffleNet, and MobileNet) are then retrained using transfer learning, and deep features are extracted from each CNN. Six ML classifiers (Naïve Bayes, K-nearest neighbor, decision tree, linear discriminant analysis, support vector machine, and quadratic discriminant analysis) are used to classify tomato leaves into ten classes. 
+\end{itemize}
+\\
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Google colab, keras,Tensorflow,pandas,numpy,matplot ,os. \\
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+For the experimental work, the datasets were divided into the ratio of 80\% and 20\%. 80\% of the datasets were
+used to train classification algorithms, and the remaining 20\% used for testing purposes.classifiers. \\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+Datasets : Bacterial Spot,Early Blight,Healthy,Late Blight,
+Leaf Mold,Mosaic virus,Septoria Leaf Spot,Two Spotted Spider Mites,Target Spot,Yellow Leaf Curl Virus.
+
+% \begin{figure}
+%     \centerline
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+The RF classifier observed a maximum accuracy of 97.62\%.
+
+\begin{itemize}
+    \vspace{0.5mm}
+    % \includegraphics[width=0.5\textwidth]{assets/x3.PNG}
+    \includegraphics[width=7.5cm\textwidth]{assets/r1.png}
+%     \item NB 98.5 98.2 99.8 98.5 98.5 98.3,
+%           LDA 97.3 97.3 97.0 97.49 7.3 96.9,
+%           QDA 98.9 98.9 99.9 98.9 98.9 98.8,
+%           LSVM 99.34 99.3 99.9 99.3 99.3 99.3,
+%           KNN 99.34 99.3 99.9 99.3 99.3 99.3,
+%           DT 99.05 99.1 99.1 99.1 98.9 99.6,
+%     \item NB 99.21 99.2 99.9 99.2 99.2 99.1,
+%           LDA 99.33 99.3 99.9 99.3 99.3 99.2,
+%           QDA 99.48 99.5 99.9 99.5 99.5 99.4,
+%           LSVM 99.53 99.5 99.9 99.5 99.5 99.5,
+%           KNN 99.60 99.61 99.6 99.6 99.6,
+% DT99.1799.299.999.299.299.1, and
+%     \item AUC of 99.32\% for different diseases.
+\end{itemize}\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+In the future, the work could be extended for different applications like weather forecasting, military applications, food predictions, etc. \\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+Artificial intelligence. Machine learning · Internet of things (IoT) · Healthcare · Fog computing · Learning
+classifier. KNN-K-Nearest Neighbor
+RF-Random Forest, SVM- Support Vector Machine \\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+    \item Amin et al. proposed a system to classify people with heart disease and healthy people and had an
+    accuracy of 89\%
+   \item Samuel et al. proposed a system to predict heart failure risks, decision support systems based on
+   artificial neural networks and had an accuracy of 91.10\%
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+Along with the seven machine learning classification algorithms, I would use (analytic hierarchy process) AHP
+technique due to its simplicity, scalability, mathematical background, and ability to assess qualitative and
+quantitative factors to evaluate the effectiveness and efficacy of monitoring patients. \\
+
+
+\hline
+
+\end{tabular}
+
+}
+% rev2
+
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 2 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Design of Efficient Methods for the Detection of Tomato Leaf
+Disease Utilizing Proposed Ensemble CNN Model\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+ They introduce two novel convolutional neural network (CNN) models alongside four well-known CNN models, and employ fine-tuning and hyperparameter optimization techniques using particle swarm optimization (PSO) and grid search. Triple and quintuple ensemble models are created, and the dataset is classified using five-fold cross-validation. The experimental results demonstrate that the proposed ensemble models exhibit fast training and testing times, achieving exceptional classification performance with an accuracy of 99.60\%. This research simplifies and expedites the early detection of plant diseases, aiding experts in preventing the spread of infections.\\
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+\begin{itemize}
+    \item  This section covers methods for tomato plant leaf disease classification, utilizing CNNs for automatic feature extraction. EfficientNet optimizes network performance through composite scaling, while InceptionV3 and GoogleNet enhance architecture efficiency with parallel computing and reduced parameters.
+\end{itemize}
+\\
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Google colab, keras,Tensorflow,pandas,numpy,matplot ,os. \\
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+\begin{itemize}
+    \vspace{0.5mm}
+    % \includegraphics[width=0.5\textwidth]{assets/x3.PNG}
+    \includegraphics[width=4.5cm\textwidth]{assets/t2.png}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+Datasets : Bacterial Spot,Early Blight,Healthy,Late Blight,
+Leaf Mold,Mosaic virus,Septoria Leaf Spot,Two Spotted Spider Mites,Target Spot,Yellow Leaf Curl Virus.
+
+% \begin{figure}
+%     \centerline
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+
+\begin{itemize}
+    \vspace{0.5mm}
+    \includegraphics[width=0.5\textwidth]{assets/r2.PNG}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+They didn't face any challenges\\
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+CNN; deep learning; fine tuning; hyperparameter optimization; tomato disease;\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+It gets highest accuray 99.9\% using MobileNetV3Small which better than this paper
+"Yu, Y.; Samali, B.; Rashidi, M.; Mohammadi, M.; Nguyen, T.N.; Zhang, G. Vision-based concrete crack detection using a hybrid
+framework considering noise effect. J. Build. Eng. 2022, 61, 105246. [CrossRef]"
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+&
+This paper was great validation accuracy using mobilenetv3
+and they used other model like Ineptionv3 and MobileNetv2\\
+
+
+\hline
+
+\end{tabular}
+
+}
+\newpage
+% revv3
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 3 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Image processing based system for the detection,
+identification and treatment of tomato leaf diseases.\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+Early detection and treatment of leaf diseases in tomato plants are crucial for optimal production. Traditional manual methods are insufficient, leading to losses in quality and quantity. This paper presents an image processing-based technique using statistical features and SVM for automatic disease detection and treatment. Experimental results show high accuracy, and the method is implemented as a cell phone application.\\
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+\begin{itemize}
+    This paper proposes an image processing-based technique for automatic disease detection and treatment in tomato plants using statistical features, segmentation, and SVM. Experimental results show high accuracy, and the approach is implemented as a cell phone application, collecting data from tomato fields. Pre-processing includes cropping, resizing, and enhancement. The images are pre-processed, labeled, and stored, with SVM and K-nearest neighbor algorithm used for supervised learning, and GLCM employed for disease classification.
+\end{itemize}
+\\
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Google colab, keras,Tensorflow,pandas,numpy,matplot ,os. \\
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+\begin{itemize}
+    \vspace{0.5mm}
+    % \includegraphics[width=0.5\textwidth]{assets/x3.PNG}
+    \includegraphics[width=5.5cm\textwidth]{assets/t3.png}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+Datasets : Bacterial Spot,Early Blight,Healthy,Late Blight,
+Leaf Mold,Mosaic virus,Septoria Leaf Spot,Two Spotted Spider Mites,Target Spot,Yellow Leaf Curl Virus.
+
+% \begin{figure}
+%     \centerline
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+
+\begin{itemize}
+    \vspace{0.5mm}
+    \includegraphics[width=0.3\textwidth]{assets/r3.PNG}
+    % \vspace{0.5mm}
+    % \includegraphics[width=0.1\textwidth]{assets/r3.2.PNG}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+They didn't face any challenges\\
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+Image processing . Tomato crop . Leaf diseases . Early blight, late blight . Septoria leaf spot\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+used (SVMs) with alternate
+kernel functions and get 99.5\%
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+&
+This paper didn't use updated model\\
+
+
+\hline
+
+\end{tabular}
+
+}
+\newpage
+% revv4
+
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 4 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Tomato leaf diseases recognition based on deep convolutional neural networks\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+ work proposes a deep learning-based model for tomato leaf disease identification, utilizing in-house and public image databases. VGG16, Inceptionv3, and Resnet50 architectures were trained and tested, resulting in TomatoGuard, an Android application with 99\% test accuracy. TomatoGuard outperforms the widely used Plantix app for general-purpose plant disease detection, addressing the need for practical field applications.\\
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+\begin{itemize}
+    Fungi (e.g., early blight, septoria leaf spot, target spot, leaf mould), bacterial spot, late blight (caused by mould), tomato yellow leaf curl virus, and mites cause specific tomato diseases. Image preprocessing enhances data through techniques like rotation, flipping, mirroring, brightness adjustment, and cropping. Augmentation increases dataset diversity, and the data is split into training and testing sets.
+\end{itemize}
+\\
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Google colab, keras,Tensorflow,pandas,numpy,matplot ,os. \\
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+\begin{itemize}
+    \vspace{0.5mm}
+    % \includegraphics[width=0.5\textwidth]{assets/x3.PNG}
+    \includegraphics[width=5.5cm\textwidth]{assets/t4.png}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+Datasets : Bacterial Spot,Early Blight,Healthy,Late Blight,
+Leaf Mold,Mosaic virus,Septoria Leaf Spot,Two Spotted Spider Mites,Target Spot,Yellow Leaf Curl Virus.
+
+% \begin{figure}
+%     \centerline
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+
+\begin{itemize}
+    \vspace{0.5mm}
+    \includegraphics[width=0.5\textwidth]{assets/r4.PNG}
+    % \vspace{0.5mm}
+    % \includegraphics[width=0.1\textwidth]{assets/r3.2.PNG}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Early detection of tomato leaf diseases is crucial for reducing pesticide usage. Transfer learning, particularly fine-tuning, is a commonly used technique where models trained on one task are repurposed for related tasks. Models like VGG16, Inceptionv3, and ResNet50 have shown impressive performance in computer vision tasks such as ImageNet.\\
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+image augmented; deep learning; image classification;
+android application.\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+used VGG16 and get test accuracy  99.62\%
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+&
+This paper didn't use updated model\\
+
+
+\hline
+
+\end{tabular}
+
+}
+
+\newpage
+% revv5
+
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 5 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Monitoring Tomato Leaf Disease through Convolutional
+Neural Networks\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+Mexico's agricultural sector, particularly tomatoes, contributes significantly to the economy. Disease identification in crops, addressed using deep learning techniques, is crucial for improving yields. This study proposes a high-performing convolutional neural network model that classifies tomato leaf diseases with over 99\% accuracy.\\
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+
+\begin{itemize}
+   Proposed architecture for tomato leaf disease detection: Input: tomato leaf images. Output: disease labels, predicted values, and prediction percentages. Steps: dataset creation, architecture design, dataset distribution, model training and evaluation. Dataset: 13,500 images of 10 disease categories and healthy leaves. Overfitting prevention: GAN generates synthetic samples. CNN architecture: 4 convolutional layers, MaxPooling layers. Evaluation: k-fold cross-validation. Training: Adam optimizer, categorical crossentropy loss function.
+\end{itemize}
+\\
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Google colab, keras,Tensorflow,pandas,numpy,matplot ,os. \\
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+\begin{itemize}
+    \vspace{0.5mm}
+    % \includegraphics[width=0.5\textwidth]{assets/x3.PNG}
+    \includegraphics[width=5.5cm\textwidth]{assets/t5.png}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+Datasets : Bacterial Spot,Early Blight,Healthy,Late Blight,
+Leaf Mold,Mosaic virus,Septoria Leaf Spot,Two Spotted Spider Mites,Target Spot,Yellow Leaf Curl Virus.
+
+% \begin{figure}
+%     \centerline
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+
+\begin{itemize}
+    ResNet - 97.6 , VGG16Net - 98.77, Inception-v3-Net - 98.8,
+    AlexNet - 99.64
+    % \vspace{0.5mm}
+    % \includegraphics[width=0.1\textwidth]{assets/r3.2.PNG}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+
+New innovative techniques are needed to address the challenges and trends in agricultural production. This requires higher accuracy levels and improved detection methods, considering the new vision of agricultural monitoring.\\
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+convolutional neural networks; deep learning; disease classification; generative adversarial
+network; tomato leaf.\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+AlexNet - 99.64\%
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+&
+This paper didn't use updated model\\
+
+
+\hline
+
+\end{tabular}
+
+}
+\newpage
+% revv6
+
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 6 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Smart Detection of Tomato Leaf Diseases Using Transfer
+Learning-Based Convolutional Neural Networks\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+Data augmentation techniques, including horizontal flipping, rotation, and zooming, were applied to tomato disease leaf images. The augmented images were used for further analysis. A convolutional neural network (CNN) architecture was employed, consisting of convolutional, batch normalization, activation, pooling, and fully connected layers. Pre-trained Inception V3 and Inception ResNet V2 models were used, with transfer learning applied to improve model performance. Dropout layers were utilized to address background noise. The CNN models were trained using cross-entropy loss and the Adam optimizer. This approach outperformed traditional feature extraction methods for plant disease identification.\\
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+
+\begin{itemize}
+   Proposed architecture for tomato leaf disease detection: Input: tomato leaf images. Output: disease labels, predicted values, and prediction percentages. Steps: dataset creation, architecture design, dataset distribution, model training and evaluation. Dataset: 13,500 images of 10 disease categories and healthy leaves. Overfitting prevention: GAN generates synthetic samples. CNN architecture: 4 convolutional layers, MaxPooling layers. Evaluation: k-fold cross-validation. Training: Adam optimizer, categorical crossentropy loss function.
+\end{itemize}
+\\
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Google colab, keras,Tensorflow,pandas,numpy,matplot ,os. \\
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+\begin{itemize}
+    \vspace{0.5mm}
+    % \includegraphics[width=0.5\textwidth]{assets/x3.PNG}
+    \includegraphics[width=6.5cm\textwidth]{assets/t6.png}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+Datasets : Bacterial Spot,Early Blight,Healthy,Late Blight,
+Leaf Mold,Mosaic virus,Septoria Leaf Spot,Two Spotted Spider Mites,Target Spot,Yellow Leaf Curl Virus.
+
+% \begin{figure}
+%     \centerline
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+
+\begin{itemize}
+    \vspace{0.5mm}
+    \includegraphics[width=0.4\textwidth]{assets/r6.PNG}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Team didnt find any challenges\\
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+deep learning; convolutional neural networks; inception V3; inception ResNet V2;\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+Validation accuracy is 98.69\%
+Test Accuaracy is 99.22\%
+Train Accuaracy is 99.78\%
+In Inceptionv3
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+&
+This paper didn't use updated model\\
+
+
+\hline
+
+\end{tabular}
+
+}
+\newpage
+% revv7
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 7 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Plant Leaf Disease Detection and Classification
+based on CNN with LVQ Algorithm\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+This paper proposes a method for tomato leaf disease detection and classification using a Convolutional Neural Network (CNN) and Learning Vector Quantization (LVQ) algorithm. The dataset consists of 500 images with four disease symptoms. The CNN model extracts features from RGB channels, and the LVQ is used for network training. The experimental results demonstrate accurate recognition of the four tomato leaf diseases. Key terms: Leaf Disease Detection, Leaf Disease Classification, CNN, LVQ.\\
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+
+\begin{itemize}
+  CNN extracts features from an input image using convolution layer.The pooling layer follows the convolution layer and reduces the size of the output matrix. A commonly used 2x2 filter is applied, with options like max pooling, average pooling, or L2-norm pooling.In this study, the LVQ algorithm is used for data classification. 
+\end{itemize}
+\\
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Google colab, keras,Tensorflow,pandas,numpy,matplot ,os. \\
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+\begin{itemize}
+    \vspace{0.5mm}
+    % \includegraphics[width=0.5\textwidth]{assets/x3.PNG}
+    \includegraphics[width=6.5cm\textwidth]{assets/t7.png}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+Datasets : Healthy, Bacterial spot, Late blight, Septoria spot, Yellow curved
+% Bacterial Spot,Early Blight,Healthy,Late Blight,
+% Leaf Mold,Mosaic virus,Septoria Leaf Spot,Two Spotted Spider Mites,Target Spot,Yellow Leaf Curl Virus.
+
+% \begin{figure}
+%     \centerline
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+
+\begin{itemize}
+    \vspace{0.5mm}
+    \includegraphics[width=0.5\textwidth]{assets/r7.PNG}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Team didnt find any challenges\\
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+Leaf Disease Detection, Leaf Disease Classification, Convolutional Neural Network (CNN), Learning Vector
+Quantization (LVQ)\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+Healthy class got 90\%
+In Inceptionv3
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+&
+This paper didn't use updated model\\
+
+
+\hline
+
+\end{tabular}
+
+}
+\newpage
+% revv8
+
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 8 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Tomato leaf disease classification by exploiting transfer learning
+and feature concatenation\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The authors propose a method for automating tomato leaf disease classification using transfer learning and feature concatenation. Pre-trained kernels from MobileNetV2 and NASNetMobile are used to extract features, which are then reduced in dimensionality using kernel principal component analysis. The concatenated features are fed into a conventional learning algorithm, with multinomial logistic regression achieving an average accuracy of 97\%.\\
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+
+\begin{itemize}
+  They selected 1152 tomato leaf images, divided into one healthy class and five unhealthy classes, to extract features. The images were resized to 224x224 pixels and normalized between 0 and 1.
+Transfer learning is used to adapt pre-trained models for image classification, specifically MobileNetV2 and NASNetMobile, as feature extractors without their final classification layer.
+\end{itemize}
+\\
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Google colab, keras,Tensorflow,pandas,numpy,matplot ,os. \\
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+\begin{itemize}
+    \vspace{0.5mm}
+    % \includegraphics[width=0.5\textwidth]{assets/x3.PNG}
+    \includegraphics[width=7.5cm\textwidth]{assets/t8.png}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+Datasets : Healthy, Bacterial spot, Late blight, Septoria spot, Yellow curved
+% Bacterial Spot,Early Blight,Healthy,Late Blight,
+% Leaf Mold,Mosaic virus,Septoria Leaf Spot,Two Spotted Spider Mites,Target Spot,Yellow Leaf Curl Virus.
+
+% \begin{figure}
+%     \centerline
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+
+\begin{itemize}
+    \vspace{0.5mm}
+    \includegraphics[width=0.5\textwidth]{assets/r8.PNG}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Team didnt find any challenges\\
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+Leaf Disease Detection, Leaf Disease Classification, Convolutional Neural Network (CNN), NASNetMobile , MobileNetV2\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+ ResNet-50 was trained on a dataset containing 12206 images; however, when we trained and tested it on
+our dataset (which contained only 1152 images), the accuracy
+declined dramatically from 97\% to 81.4\%.
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+&
+This paper didn't use updated model\\
+
+
+\hline
+
+\end{tabular}
+
+}
+\newpage
+% revv9
+
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 9 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Classification of Leaf Disease Using Global and
+Local Features\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+Leaf disease in plants can lead to crop productivity loss, highlighting the importance of timely diagnosis and proper care. This paper presents a computer vision-based method using Gist and LBP features for early disease detection, offering a time-efficient alternative to deep learning approaches. Gist provides a global image description, LBP is resilient to illumination changes and occlusions. Pre-processing and combining Gist and LBP features yield promising results, with SVM outperforming other machine learning algorithms in classifying plant leaf datasets.\\
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+
+\begin{itemize}
+Gist Descriptors: Summarize gradient information using Gabor filters at multiple scales, locations, and orientations, resulting in a 128-value Gist feature vector.
+LBP (Local Binary Patterns): Robust to lighting variations, LBP encodes local structure by comparing 3x3 neighborhood values, generating binary patterns for labeling.
+SVM (Support Vector Machine): Versatile model for classification and regression, drawing a line or hyperplane to separate classes and maximize the margin between support vectors.
+KNN (K-Nearest Neighbors): Classifies data points based on proximity to K nearest neighbors.
+Adaboost: Ensemble method that iteratively trains weak learners on weighted data, transforming them into stronger models.
+\end{itemize}
+\\
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Google colab, keras,Tensorflow,pandas,numpy,matplot ,os. \\
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+\begin{itemize}
+    \vspace{0.5mm}
+    % \includegraphics[width=0.5\textwidth]{assets/x3.PNG}
+    \includegraphics[width=3cm\textwidth]{assets/t9.png}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+Datasets : Healthy, Bacterial spot, Late blight, Septoria spot, Yellow curved
+% Bacterial Spot,Early Blight,Healthy,Late Blight,
+% Leaf Mold,Mosaic virus,Septoria Leaf Spot,Two Spotted Spider Mites,Target Spot,Yellow Leaf Curl Virus.
+
+% \begin{figure}
+%     \centerline
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+
+\begin{itemize}
+    \vspace{0.5mm}
+    \includegraphics[width=0.3\textwidth]{assets/r9.PNG}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Team didnt find any challenges\\
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+Leaf disease, Gist, local binary pattern, machine learning.\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+ SVM 91.9\%
+KNN 82.1\%
+Adaboost 76.6\%.
+
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+&
+This paper didn't use updated model\\
+
+
+\hline
+
+\end{tabular}
+
+}
+\newpage
+% revv10
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 10 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+AlexNet Convolutional Neural Network for Disease Detection
+and Classification of Tomato Leaf\\
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+With limited resources and increasing plant diseases, automation becomes crucial. This study employs an AlexNet-based CNN on Android to predict tomato diseases from leaf images. A dataset of 18,345 training and 4,585 testing samples, with ten disease labels and 64x64 RGB pixels, is used. The optimized model achieves high accuracy (98\%), precision (0.98), recall (0.99), F1-score (0.98), and low loss (0.1331), ensuring precise and reliable disease classification.\\
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+
+\begin{itemize}
+Convolution layers use trainable kernels for convolutions and activation functions for feature map generation.
+Subsampling layers employ non-trainable kernels for downsampling using methods like average or max pooling, and can have trainable parameters.
+CNN learning involves selecting an architecture like modified AlexNet, using Adam optimizer with learning rate 0.005, and updating neuron weights with gradient descent.
+The input image size is 64x64 RGB pixels, employing ReLU activation in convolution with Alexnet architecture and max pooling layers, followed by flattening, dense layers with ReLU, and a Softmax activation for the output layer.
+\end{itemize}
+\\
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Google colab, keras,Tensorflow,pandas,numpy,matplot ,os. \\
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+\begin{itemize}
+    \vspace{0.5mm}
+    % \includegraphics[width=0.5\textwidth]{assets/x3.PNG}
+    \includegraphics[width=6cm\textwidth]{assets/t10.png}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+Datasets : Healthy, Bacterial spot, Late blight, Septoria spot, Yellow curved
+% Bacterial Spot,Early Blight,Healthy,Late Blight,
+% Leaf Mold,Mosaic virus,Septoria Leaf Spot,Two Spotted Spider Mites,Target Spot,Yellow Leaf Curl Virus.
+
+% \begin{figure}
+%     \centerline
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \vspace{0.5mm}
+    % \includegraphics[height=3.5cm]{assets/d1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+
+\begin{itemize}
+    \vspace{0.5mm}
+    \includegraphics[width=0.5\textwidth]{assets/r10.PNG}
+\end{itemize}\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Team didnt find any challenges\\
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+AlexNet modification; tomato diseases; leaf image; AI.\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+The research demonstrates that the CNN algorithm with a modified AlexNet architecture, combined with preprocessing and classification methods, achieves high accuracy (96\%), precision (98\%), recall (95\%), and F-Measure (97%) for object image classification
+
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+&
+This paper didn't use updated model\\
+
+
+\hline
+
+\end{tabular}
+
+}
+\newpage
+
+% new rakib here
+
+% \documentclass{article}
+% \usepackage{graphicx}
+% \usepackage{geometry}
+%  \geometry{
+%  a4paper,
+%  total={170mm,257mm},
+%  left=21mm,
+%  top=21mm,
+%  bottom=20mm
+%  }
+% \setlength{\arrayrulewidth}{0.3mm}
+% \setlength{\tabcolsep}{18pt}
+% % \renewcommand{\arraystretch}{1.5}
+% \begin{document}
+% \pagenumbering{roman}
+% \centering
+
+
+{
+\vspace{0.1cm}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 1 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Deep Learning Convolution Neural Network to Detect and Classify Tomato Plant Leaf Diseases\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The goal is to develop an intelligent CNN-based technique for early detection and accurate classification of tomato plant diseases, with the aim of improving crop production and quality by providing farmers a reliable tool for disease detection and classification.\\
+
+
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+The work was divided into three phases.
+
+\begin{itemize}
+        
+    
+    \item  Collect dataset from Plant Village
+   \item Design CNN architecture and use CNN for disease detection and classification
+    \item Extract relevant features and Train the CNN:
+    \item Evaluate classification accuracy and  Validate with real images: Apply the CNN technique to real images obtained from a farm using a 5-megapixel camera.
+
+\end{itemize}
+\\
+
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Tensorflow,Python,Anaconda Notebook \\
+
+
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+The proposed methodology involves obtaining the plant village dataset, resizing the images, splitting them into training and testing sets, and classifying the images using a deep learning convolutional neural network (DLCNN) architecture. The experimental results show an accuracy of 96.43\% for the proposed network. \\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+The simulation/test data consists of 6202 images from the plant village dataset, divided into six classes of tomato plant leaf diseases. The accuracy of the proposed network is evaluated using a training set of 4342 images and a testing set of 1860 images.
+
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/11.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+The proposed deep learning convolution neural network achieved a high classification accuracy of 96.34\% for detecting and classifying tomato plant diseases, with a training accuracy of 99.36\%.\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+In the future, the work could be extended for different applications like weather forecasting, military applications, food predictions, etc. \\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+onvolution Neural Network (CNN), Tomato Plant Leaf Diseases, Machine Learning, Early Detection\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+    \item The reviewed articles aimed to classify plant diseases using deep learning models, with reported accuracies ranging from 89\% to 96.77\% on various datasets.
+    \item Rajasekaran Thangaraj’s The Modified Xception
+model achieved an average detection ac- curacy of
+99.55\% in tomato leaf disease ditection.
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+Based on the reviewed articles, the obtained knowledge will be used to inform the development of a new methodology for classifying plant diseases using a deep learning model, with a focus on dataset selection, network architecture, and performance evaluation. \\
+
+
+\hline
+
+\end{tabular}
+
+}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 2 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Tomato Leaf Disease Classification using Multiple Feature
+Extraction Techniques\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The objective is to develop a technique for identifying leaf disease in tomato plants by improving classification accuracy and reducing computational time.\\
+
+
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+\begin{itemize}
+        
+    
+    
+    
+    \item Collection of Database
+    \item The proposed method uses a fusion of multiple features (color histograms, Hu Moments, Haralick, and Local Binary Pattern) and employs random forest and decision tree classification algorithms for leaf disease identification in tomato plants.
+
+\end{itemize}
+\\
+
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Tensorflow,Python,Google Colab\\
+
+
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+The proposed method was evaluated by dividing the dataset into train and test folders, and then using decision tree and random forest classifiers to classify the test images. The classification accuracy was calculated using confusion matrices. The proposed method achieved an accuracy of 90\% for the decision tree classifier and 94\% for the random forest classifier. The results were compared with other state-of-the-art techniques, showing competitive performance. \\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+The dataset has five classes of tomato leaf diseases: Bacterial, Healthy, Septoria, Mosaic, and Yellow Curl. There are 60 images per class in the train folder (300 images in total) and 40 images per class in the test folder (200 images in total). The test images are classified using decision tree and random forest classifiers.
+
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/21.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+The proposed method achieved high classification accuracy (90\% for decision tree classifier and 94\% for random forest classifier) in detecting and classifying tomato leaf diseases, with the random forest classifier outperforming the decision tree classifier, while also offering reduced computational time.
+\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Future work includes expanding disease classification and improving accuracy using advanced features and developing an automated system for disease detection and action. \\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+Decision tree · Feature extraction · Leaf disease · Random forest \\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+\item The reviewed articles gives 90\% for decision tree classifier and 94\% for random for-
+est classifier
+    \item Thair A. Salih's articles aimed to classify plant diseases using deep learning models, with reported accuracies ranging from 89\% to 96.77\% on various datasets.
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+The obtained knowledge on disease detection and classification methods for tomato leaves will be used as a reference to develop an improved methodology for my own research project, incorporating advanced feature extraction techniques and focusing on expanding disease classification capabilities. \\
+
+
+\hline
+
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 3 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Early Detection and Classification of Tomato Leaf Disease
+Using High-Performance Deep Neural Network\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The goal of the study is to develop a Convolutional Neural Network (CNN) model for accurately identifying and classifying tomato leaf diseases based on image analysis.\\
+
+
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+\begin{itemize}
+        
+    
+    
+    \item Collection of dataset
+    \item Preprocessing of input images and segmentation of the targeted area.Extraction of features
+    \item Training the CNN model using a dataset consisting of 3000 images of tomato leaves affected by nine different diseases and healthy leaves.valuation of the model's performance and accuracy.
+
+\end{itemize}
+\\
+
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Tensorflow,Python,Anaconda Notebook \\
+
+
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+The design/prototype of the CNN model is tested and characterized by preparing a dataset of tomato leaf images, splitting it into training, validation, and testing sets. The model is then trained using the training set and evaluated on the validation set to assess its performance. Finally, the model is tested on unseen images from the testing set, analyzing its accuracy, speed, and robustness in identifying and classifying tomato leaf diseases. False positives, false negatives, and any limitations or challenges encountered during testing are also considered. \\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+The parameters determined during simulation/test data analysis for disease detection include accuracy, precision, recall, and F1-score, which measure the performance of the model in correctly identifying and classifying diseases based on test data.
+
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/31.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+The proposed model achieved an accuracy of 98.49\% in accurately diagnosing and classifying tomato leaf diseases.\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+The challenges mentioned in the article include the need for a large amount of training data, the complexity of image pre-processing, and the inclusion of abiotic diseases in the model.\\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+image processing; convolution neural network; plant leaf disease; deep learning;
+artificial intelligence\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+\item The reviewed model achieved an accuracy of 98.49\% in 
+ac-curately diagnosing and classifying tomato leaf diseases.
+    \item Jagadeesh Basavaiah's articles articles gives 90\% for decision tree clas-sifier and 94\% for random for- est classifier
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+The obtained knowledge can be used to inform and guide the development of a new methodology for a research project focused on the detection and classification of plant diseases using deep learning models. \\
+
+
+\hline
+
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 4 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Tomato Leaf Disease Diagnosis Based on Improved
+Convolution Neural Network by Attention Module\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The objective of this study is to propose a deep convolutional neural network with an attention mechanism for accurate and efficient diagnosis of tomato leaf diseases and provide a high-performance solution for crop diagnosis in real agricultural environments.\\
+
+
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+\begin{itemize}
+        
+    
+    
+    \item Build the Dataset and Data Augmentation
+    \item The proposed solution utilizes a deep convolutional neural network with attention mechanisms, incorporating residual blocks and attention extraction modules, to accurately extract complex features of various tomato leaf diseases.
+
+\end{itemize}
+\\
+
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Tensorflow,Python,Anaconda Notebook \\
+
+
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+To test and characterize the proposed deep convolutional neural network with attention mechanism for crop disease diagnosis, the model can be evaluated using a dataset of tomato leaf diseases and a dataset of grape leaf diseases. The model's performance can be measured by calculating the average identification accuracy, which should be compared with other existing models to assess its superiority in terms of network complexity and real-time performance.\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+test data in this study include 4585 tomato leaf images with fixed size of 224x224 pixels, divided into 10 categories representing different diseases and health conditions of tomato plants.
+
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/41.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+The SE-ResNet50 model achieved an average detection accuracy of 96.81\% for the 10-class classification of tomato leaf diseases, outperforming other models and demonstrating its potential for early and automatic disease diagnosis in agriculture.\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Future work could focus on deploying the developed model to a greenhouse inspection robot and improving diagnostic performance by establishing a dataset in a real agricultural environment.\\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+tomato leaf disease; deep learning; convolutional neural network (cnn); attention mecha-
+nism; classification\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+\item The reviewed The SE-ResNet50 model achieved an average detection ac-curacy of 96.81\% for the 10-class classification of tomato leaf diseases
+    \item Sali's articles aimed to classify plant diseases
+using deep learning models, with reported accuracies
+ranging from 89\% to 96.77\% on various datasets.
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+The obtained knowledge will be used to inform and reference the development of a separate and new methodology for my own research project in the field of crop disease detection and diagnosis. \\
+
+
+\hline
+
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 5 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Identification of tomato leaf diseases based on combination of ABCK-BWTR and B-ARNet\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The objective is to develop an effective method for tomato leaf disease recognition using a combination of ABCK-BWTR and B-ARNet.\\
+
+
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+\begin{itemize}
+        
+    
+    
+    \item Collection of dataset
+    \item The proposed methodology involves denoising and enhancing the tomato leaf images using Binary Wavelet Transform combined with Retinex (BWTR) technique.
+    \item The tomato leaves are separated from the background using KSW optimization by the Artificial Bee Colony algorithm (ABCK) for accurate disease recognition.
+    \item The Both-channel Residual Attention Network model (B-ARNet) is employed to classify the diseases in the segmented tomato leaf images, achieving an overall detection accuracy of approximately 89% in the experiments.
+
+\end{itemize}
+\\
+
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Tensorflow,Python,Anaconda Notebook \\
+
+
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+The design/prototype can be tested and characterized by evaluating its performance using evaluation metrics such as accuracy, precision, recall, and F1-score on a test dataset of tomato leaf images, comparing it with other neural network models and analyzing the recognition results and curves.\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+The parameters determined for the simulation/test data include the date of data acquisition (June 8, 2019), location (Hunan Vegetable Institute), camera resolution (4460x3740), number of original images (8616), image preprocessing techniques (denoising, segmentation, random rotation, translation, scaling), and the number and proportion of each tomato leaf disease category (early blight, late blight, leaf mold, bacterial leaf spot, yellow leaf curl disease).
+
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/51.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+The proposed tomato leaf disease recognition method based on ABCK-BWTR and B-ARNet achieves an overall detection accuracy of approximately 89\% on 8616 images, demonstrating its effectiveness.\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Future work should focus on enriching the image data of tomato leaf diseases and improving the model's generalization ability.\\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+machine vision technology, noise, image acquisition, disease recognition, Binary Wavelet Transform (BWTR), Retinex.\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+\item The reviewed techniques achieves an overall de-
+tection accuracy of approximately 89\% on 8616 images,
+    \item Shengyi Zhao's  The SE-ResNet50 model achieved an average detection ac-curacy of 96.81\% for the 10-class classification of tomato leaf diseases
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+Based on the review outcome, the obtained knowledge will be utilized to develop a novel methodology integrating machine vision technology, noise reduction techniques, and the use of Binary Wavelet Transform (BWTR) and Retinex algorithms for disease recognition in my own research project.\\
+
+
+\hline
+
+\end{tabular}
+
+
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 6 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+A Smart Solution for Tomato Leaf Disease
+Classification by Modified Recurrent Neural
+Network with Severity Computation\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The objective is to design and develop an intelligent tomato leaf disease classification model using artificial intelligence-assisted deep learning approaches.\\
+
+
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+The methodology involves data collection, pre-processing, spot segmentation, deep feature extraction, feature selection, disease classification, and severity computation to develop an accurate tomato leaf disease classification model using AI-assisted deep learning approaches.
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/61.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+
+
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Python,Google Colab \\
+
+
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+The design/prototype can be tested and characterized by evaluating its performance using evaluation metrics such as accuracy, precision, recall, and F1-score on a test dataset of tomato leaf images, comparing it with other neural network models and analyzing the recognition results and curves.\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+The parameters determined for simulation/testing include accuracy, sensitivity, specificity, precision, and disease severity computation.
+
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/62.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+The final result showed that the proposed SD-GHHO-MRNN model achieved superior performance in classifying tomato leaf diseases, with higher accuracy and sensitivity compared to other existing approaches. The severity computation provided accurate classification and quantification of disease spots, enabling effective decision-making in disease management.\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Future work includes developing occlusion invariant tomato leaf classification models under real-world scenarios using intelligent approaches like hybrid or ensemble deep learning models.\\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+Convolutional neural
+network; modified recurrent
+neural network; optimized
+K-means clustering; residual
+networks; severity
+computation; standard
+deviation-based grasshop-
+per horse herd
+optimization;\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+\item The reviewed techniques achieves ccuracy” 92.856\% on dataset 1  92.795\% in dataset 2 and  94.365\% in dataset 3
+    \item Surampalli Ashok's techniques achieved  the accuracy  98.12\% in tomato leaf disease identification
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+The obtained knowledge will be used to inform and inspire the development of a new methodology for a separate research project focused on enhancing the accuracy and efficiency of disease classification in agricultural systems.\\
+
+
+\hline
+
+\end{tabular}
+
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 7 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Tomato plant disease detection using transfer learning with C-GAN
+synthetic images\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The objective is to develop a deep learning-based method for early detection and classification of tomato plant diseases using synthetic and real images.\\
+
+
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+The proposed methodology utilizes Conditional Generative Adversarial Network (C-GAN) to generate synthetic images of tomato plant leaves, which are then used along with real images to train a DenseNet121 model using transfer learning for accurate classification of tomato leaf diseases.
+\\
+
+
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Python,Google Colab \\
+
+
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+The proposed method can be tested and characterized by evaluating its performance in tomato disease detection and classification using the PlantVillage dataset. The accuracy of the model can be measured by comparing the predicted classes of the tomato leaf images with the ground truth labels. Additionally, performance metrics such as precision, recall, and F1-score can be calculated to assess the model's effectiveness in detecting and classifying different diseases.\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+The parameters that are determined in the simulation/test data include the synthetic images generated by the C-GAN model for data augmentation, the real images of tomato plant leaves from the PlantVillage dataset, and the corresponding ground truth labels for disease classification.
+
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/72.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+The proposed deep learning-based method achieved high accuracy rates of 99.51\%, 98.65\%, and 97.11\% for classifying tomato leaf images into 5, 7, and 10 disease categories, respectively, outperforming existing methodologies.\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+The future work aims to extend the proposed method for disease identification and classification in various parts of the plant, such as fruits, stems, and branches, as well as identify different phases of plant diseases.\\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+Deep learning
+Tomato plant disease detection
+Conditional Generative Adversarial Network
+Data augmentation
+Pre-trained DesnseNet121 network
+Synthetic Images\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+\item The reviewed techniques achieves ccuracy” 92.856\% on dataset 1  92.795\% in dataset 2 and  94.365\% in dataset 3
+    \item Jun Liu's techniques achieved a high F1 score
+of 93.24\% and AP value of 91.32\% for tomato gray leaf
+spot detection
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+The obtained knowledge from the proposed deep learning-based method for tomato plant disease detection can be used as a reference to develop a separate and new methodology for my own research project on plant disease detection and classification.\\
+
+
+\hline
+
+\end{tabular}
+
+
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 8 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Early recognition of tomato gray leaf spot
+disease based on MobileNetv2-YOLOv3 model\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The objective of this study is to develop a mobile app using deep learning techniques for real-time detection and early recognition of tomato gray leaf spot disease.\\
+
+
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+The proposed method utilizes the MobileNetv2-YOLOv3 model, incorporating the GIoU bounding box regression loss function and a pre-training approach combining mixup training and transfer learning, to achieve accurate and real-time detection of tomato gray leaf spot disease.
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/81.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+
+
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Python,Google Colab,tensorflow \\
+
+
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+The research utilized a dataset consisting of 2,385 images of tomato gray leaf spot captured in the Shouguang tomato planting base in Shandong Province, China. The dataset was randomly divided into training, validation, and test sets. The images were annotated using the LabelImg tool and stored in the PASCAL VOC dataset format. The MobileNetv2-YOLOv3 model was used for object detection, which combines the MobileNetv2 backbone network with the YOLOv3 algorithm. The loss function used for bounding box regression was based on Generalized Intersection over Union (GIoU).\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+The parameters determined for simulation/test data include meteorological conditions, lighting conditions (sunny, cloudy, rainy), presence or absence of leaf shelter, and the number and types of tomato gray leaf spot images.
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+Future work could involve expanding the detection system to include other common diseases in tomatoes, developing computer or mobile app platforms for practical use, and integrating multiple data sources for an early warning model of tomato gray leaf spot disease.
+
+\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+\\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+YOLOv3, Convolutional neural network, Tomato diseases and pests, Object detection\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+
+\item The reviewed techniques achieved a high F1 score
+of 93.24\% and AP value of 91.32\% for tomato gray leaf
+spot detection
+    \item Shengyi Zhao's The SE-ResNet50 model achieved an average detection ac-
+curacy of 96.81\% for the 10-class classification of tomato
+leaf disease
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+The obtained knowledge will be used to develop a novel methodology for plant disease identification in my own research project, incorporating techniques such as deep learning models and an expanded dataset for improved accuracy.\\
+
+
+\hline
+
+\end{tabular}
+
+
+
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 9 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Automated tomato leaf disease classification using transfer
+learning‑based deep convolution neural network\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The objective of this study is to propose a transfer learning-based deep convolutional neural network model for accurate detection and classification of tomato leaf diseases using minimal plant image data.\\
+
+
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+A Modified-Xception model was trained using a dataset of tomato leaf images, employing specific hardware and deep learning frameworks. The model underwent feature extraction, classification, and fine-tuning processes with different optimization algorithms, achieving accurate disease classification.
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/91.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+
+
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Python,Google Colab,tensorflow \\
+
+
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+The design/prototype will be tested by feeding it with real-time and stored tomato leaf images, and its performance will be evaluated using evaluation metrics such as accuracy, precision, recall, and F1-score.\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+
+The parameters determined in the simulation/test data for this research project are the accuracy of different models in tomato leaf disease identification using various deep learning architectures (AlexNet, GoogLeNet, SqeezeNet, ResNet, VGG16, and Modified-Xception) on different dataset sizes and number of classes.
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+Modified-Xception model achieved highest accuracy 99.55\%.
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/92.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Future work could focus on expanding the dataset and incorporating additional crop categories for improved accuracy in plant disease identification.
+
+\\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+Deep convolution neural network · Tomato leaf disease · Transfer learning · Feature extraction · Disease
+classification · Fine-tuning\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+\item The reviewed techniques achieved  the highest accuracy of 99.55\% in tomato leaf disease identification
+    \item Shengyi Zhao's The SE-ResNet50 model achieved an average detection ac-
+curacy of 96.81\% for the 10-class classification of tomato
+leaf disease
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+The outcome of the study suggests that incorporating the Modified-Xception model trained with Adam optimizer and evaluated using appropriate performance metrics can serve as a valuable methodology for tomato disease classification in my own research project.\\
+
+
+\hline
+
+\end{tabular}
+
+
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+\centerline{\textbf{Aspects}} & 
+\centerline{\textbf{Paper \# 10 (Title)}}  \\
+\hline
+{\textbf{Title / Question}}
+
+\vspace{2mm}
+{ (What is problem statement?)}
+\vspace{2mm}  
+& 
+Tomato Leaf Disease Detection Using Deep
+Learning Techniques\\
+
+
+\hline
+{\textbf{Objectives / Goal}}\
+\vspace{2mm}
+{(What is looking for?)}
+& 
+The objective of this paper is to develop a reliable and accurate system for early detection of tomato plant leaf diseases using image processing techniques.\\
+
+
+\hline
+{\textbf{Methodology / Theory}}
+\vspace{2mm}
+{(How to find the solution?)}
+& 
+
+The proposed methodology involves image processing techniques, including preprocessing with a Gaussian filter, feature extraction using Discrete Wavelet Transform (DWT) and Gray-Level Co-occurrence Matrix (GLCM), and segmentation using color-based thresholding, to classify tomato leaf diseases and suggest suitable solutions.
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/10.1.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+\\
+
+
+
+\hline
+{\textbf{Software Tools}}
+{(What program/software is used for design, coding and simulation?)}
+& Python,Google Colab,tensorflow \\
+
+
+\hline
+{\textbf{Test / Experiment}}
+{How to test and characterize the design/prototype?}
+&
+The proposed method was tested using OpenCV and evaluated by comparing it with other methods, including Deep Neural Networks (AlexNet) and ANN technique. The performance measures, including accuracy rates, were calculated to assess the effectiveness of the proposed method in detecting tomato leaf diseases.\\
+
+
+\hline
+{\textbf{Simulation/Test Data}}
+{(What parameters are determined?)}
+&
+
+The simulation/test data involved tomato leaf images with different diseases and healthy leaves, and the parameters determined were the accuracy rates for disease detection and classification.
+% \begin{figure}
+%     \centerline
+    \vspace{0.5mm}
+    \includegraphics[height=3.5cm]{assets/10.2.png}
+    % \caption{A Recurrent Neural Network}
+%     \label{fig}
+% \end{figure}
+
+\\
+\hline
+{\textbf{Result / Conclusion}}
+{(What was the final result?)}
+& 
+The proposed method achieved high accuracy rates of 98.12\% in detecting and classifying tomato leaf diseases, outperforming other methods such as Deep Neural Networks (AlexNet) and ANN technique.\\
+
+
+\hline
+{\textbf{Obstacles/Challenges}}
+{(List the methodological obstacles if authors mentioned in the article)}
+& 
+Future work could involve exploring the use of additional algorithms and techniques, such as artificial neural networks, fuzzy logic, and hybrid approaches, to further improve the accuracy and effectiveness of tomato leaf disease detection.
+\\
+
+
+\hline
+{\textbf{Terminology}}
+{(List the common basic words frequently used in this research field)}
+&
+Leaf disease detection, image processing,
+convolutional neural networks, feature extraction, deep learning\\
+
+
+\hline
+\end{tabular}
+\begin{tabular}{ |p{5.5cm}|p{9cm}|}
+\hline
+{\textbf{Review Judgment}}
+{(Briefly compare the objectives and results of all the articles you reviewed)}
+&
+\begin{itemize}
+\item The reviewed techniques achieved  the accuracy  98.12\% in tomato leaf disease identification
+    \item Rajasekaran Thangaraj's The Modified Xception model achieved an average detection ac-
+curacy of 99.55\% in tomato leaf disease ditection.
+\end{itemize} \\
+
+
+\hline
+{\textbf{Review Outcome}}
+{(Make a decision how to use/refer the obtained knowledge to prepare a separate and new methodology for your own research project)}
+&
+The obtained knowledge from the reviewed paper can be used as a reference to inform and inspire the development of a new methodology for a separate research project on plant disease detection, tailored to the specific objectives and requirements of the project.\\
+
+
+\hline
+
+\end{tabular}
+\end{document}
+
+\end{document} %end here
